@@ -1,0 +1,42 @@
+{
+    "name": "vitkuz573/os-info",
+    "description": "Package for getting information about the system",
+    "keywords": [
+        "os info"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Kuzyaev",
+            "email": "vitkuz573@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "vitkuz573\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "support": {
+        "issues": "https://github.com/vitkuz573/os-info/issues",
+        "source": "https://github.com/vitkuz573/os-info",
+        "docs": "https://os-info.rtfd.io"
+    },
+    "funding": [
+        {
+            "type": "ko_fi",
+            "url": "https://ko-fi.com/vitkuz573"
+        },
+        {
+            "type": "liberapay",
+            "url": "https://liberapay.com/vitkuz573"
+        }
+    ]
+}
