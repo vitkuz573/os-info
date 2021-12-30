@@ -11,4 +11,12 @@ class OsInfo
     {
         return PHP_OS_FAMILY;
     }
+
+    /**
+     * @return false|string
+     */
+    public static function getHostname()
+    {
+        return gethostname();
+    }
 }
