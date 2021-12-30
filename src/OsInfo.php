@@ -19,4 +19,28 @@ class OsInfo
     {
         return gethostname();
     }
+
+    /**
+     * @return string
+     */
+    public static function getRelease(): string
+    {
+        return php_uname('r');
+    }
+
+    /**
+     * @return string
+     */
+    public static function getVersion(): string
+    {
+        return php_uname('v');
+    }
+
+    /**
+     * @return string
+     */
+    public static function getArchitecture(): string
+    {
+        return php_uname('m');
+    }
 }
